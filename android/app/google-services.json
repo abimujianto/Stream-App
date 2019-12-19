@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "336677239026",
+    "firebase_url": "https://livestream-bd0b4.firebaseio.com",
+    "project_id": "livestream-bd0b4",
+    "storage_bucket": "livestream-bd0b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336677239026:android:45383be741dc2020bd786b",
+        "android_client_info": {
+          "package_name": "com.btv.task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336677239026-eoas7cikiujar7csf3ekkaptc931ea5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf0ONypUq3BoJzbC-r1Y5My8irUQo9PrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336677239026-eoas7cikiujar7csf3ekkaptc931ea5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
