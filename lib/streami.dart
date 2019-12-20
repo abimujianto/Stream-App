@@ -16,26 +16,14 @@ class _HalamanDuaState extends State<HalamanDua> {
   void didChangeDependencies() {
     super.didChangeDependencies();
     //1.create & init player
-    player = GPlayer(uri: 'rtmp://122.248.43.138:1935/ch10/myStream')
+    player = GPlayer(uri: '')
       ..init()
       ..addListener((_) {
         //update control button out of player
         setState(() {});
       });
   }
-  // void initState() {
-  //   super.initState();
-  //   player = GPlayer(
-  //       uri: 'rtmp://122.248.43.138:1935/ch10/myStream',
-  //       options: [Option(1, 'multiple_requests', 1)],
-  //       mediaController: DefaultMediaController(
-  //           title: 'Streaming BTV', gestureControlEnabled: true))
-  //     ..init()
-  //     ..addListener((_) {
-  //       //update control button out of player
-  //       setState(() {});
-  //     });
-  // }
+  
 
   void didUpdateWidget(oldWidget) {
     print('didUpdateWidget---------');
@@ -223,7 +211,7 @@ class GPlayerHolderState extends State<GPlayerHolder> {
 //     //1.create & init player
 //     Screen.keepOn(true);
 
-//     player = GPlayer(uri: 'rtmp://122.248.43.138:1935/ch10/myStream')
+//     player = GPlayer(uri: '')
 //       ..init()
 //       ..addListener((_) {
 //         //update control button out of player
